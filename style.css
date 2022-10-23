@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;800&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Makta, sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site {
+    height: 100vh;
+    background: rgb(236, 236, 236);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+
+}
+
+.left-header {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+
+}
+
+.right-header {
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    padding-top: 4.5rem;
+    
+}
+
+.menu > li a {
+    color: grey;
+}
+
+.menu > li a:hover {
+    color: black;
+}
+
+.submenu {
+    border-radius: 8%;
+    background:white;
+    color: rgb(83, 83, 83);
+    display: none;
+
+}
+
+.submenu li {
+    padding: 0.8rem;
+}
+
+.submenu li:hover {
+    background: rgb(195, 195, 238);
+    
+    
+}
+
+.submenu li:hover .submenu li a {
+    color: white;
+}
+
+.menu li:nth-child(1):hover .submenu {
+    display: block;
+}
+
+.menu li:nth-child(2):hover .submenu {
+    display: block;
+}
+
+.left-header p a {
+    font-size: 5rem;
+    color: black;
+    font-family: Mukta, sans-serif;
+    font-weight: 800;
+}
+
+.main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.main-left h1 {
+    font-size: 9rem;
+    color: black;
+    line-height: 1
+
+}
+
+.main-left p {
+    color: grey;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.clients {
+        max-width: 30%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 5rem;
+}
+
+.main-left a {
+    padding: 1rem 3rem;
+    background: black;
+    border-radius: 30%;
+    color: white;
+    margin: 2rem 0;
+
+}
+
+.main-left a:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.image img {
+    max-width: 38rem;
+}
+
+.attribution {
+    padding-top: 5rem;
+}
+
+.right-header p a {
+    color: grey;
+}
+
+.right-header p a:hover {
+    color: black;
+}
